@@ -65,3 +65,26 @@
     display:none;
 }
 
+.navbar .dropdown p{
+    font-size:13px;
+    cursor:pointer;
+}
+
+.navbar-profile:hover .dropdown{
+    display:block;
+}
+
+.nav-dark{
+    background:#141414;
+
+}
+
+@media (max-width:800px){
+    .navbar{
+        padding:20px 4%;
+    }
+
+    .navbar-left ul{
+        display:none;
+    }
+}
