@@ -21,6 +21,9 @@ const Navbar = () => {
     })
   },[])
 
+
+
+  
   return (
     <div ref={navRef} className='navbar'>
       <div className="navbar-left">
